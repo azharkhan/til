@@ -19,8 +19,10 @@ NOTE: if a default value is not provided ( to be the first argument of the reduc
 
 1. Product of all numbers in an array
 
-    var numbers = [ 1, 2, 3, 4, 5 ];
+```
+var numbers = [ 1, 2, 3, 4, 5 ];
 
-    product = numbers.reduce(function( prev, curr ) {
-        return prev * curr;
-    }, 1);
+var product = numbers.reduce(function( prev, curr ) {
+    return prev * curr;
+}, 1);
+```
