@@ -4,19 +4,24 @@ We're all passionate about learning, and learning is something we're all activel
 
 This is a collection of short things that I learned on a day-to-day basis, and is a reference for me personally, as well as anyone else who would find it beneficial.
 
-> Currently contains 1 TILs
+> Currently contains 2 TILs
 
 ---
 
 ## Categories
 
 * [Devops] (#devops)
+* [Javascript] (#js)
 
 ---
 
 ### Devops
 
 - [Using ssh for authentication over a remote server](devops/ssh-authentication-remote-server.md)
+
+### Javascript
+
+- [Array.prototype.reduce](js/reduce.md)
 
 ## Source
 
