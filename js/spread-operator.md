@@ -4,34 +4,41 @@ The spread operator `...` is a handy syntax introduced in ES6 / ES2015 which all
 
 ### Examples
 
-    // concat an array
-    const greeting = ['This', 'is', 'a', 'test'];
+```
+// concat an array
+const greeting = ['This', 'is', 'a', 'test'];
 
-    console.log(...greeting);
+console.log(...greeting);
 
-    > "This is a test"
+> "This is a test"
+```
 
-    // it can help convert an array to individual params for a function
+```
+// it can help convert an array to individual params for a function
 
-    // eg: finding lowest number in array
-    let numbers = [1, 5, 10];
+// eg: finding lowest number in array
 
-    // we can use the `Math.min` function, but it doesn't accept an array
-    // we can use the spread operator, to send this to the function
-    Math.min(...numbers);
+let numbers = [1, 5, 10];
 
-    // it can also be helpful for destructuring
+// we can use the `Math.min` function, but it doesn't accept an array
+// we can use the spread operator, to send this to the function
+Math.min(...numbers);
+```
 
-    [a, b, ...iterableObj] = [1,2,3,4,5];
+```
+// it can also be helpful for destructuring
 
-    // helps with `apply` or `push`
+[a, b, ...iterableObj] = [1,2,3,4,5];
 
-    var arr1 = [0,1,2];
-    var arr2 = [3,4,5];
+// helps with `apply` or `push`
 
-    // append all items from arr2 to arr1
-    Array.prototype.push.apply(arr1, arr2);
+var arr1 = [0,1,2];
+var arr2 = [3,4,5];
 
-    // with ... operator
-    arr1.push(...arr2);
+// append all items from arr2 to arr1
+Array.prototype.push.apply(arr1, arr2);
+
+// with ... operator
+arr1.push(...arr2);
+```
 
