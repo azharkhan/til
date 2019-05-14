@@ -4,7 +4,7 @@ We're all passionate about learning, and learning is something we're all activel
 
 This is a collection of short things that I learned on a day-to-day basis, and is a reference for me personally, as well as anyone else who would find it beneficial.
 
-> Currently contains 3 TILs
+> Currently contains 4 TILs
 
 ---
 
@@ -12,6 +12,7 @@ This is a collection of short things that I learned on a day-to-day basis, and i
 
 * [Devops] (#devops)
 * [Javascript] (#js)
+* [Shell Commands] (#sh)
 
 ---
 
@@ -23,6 +24,10 @@ This is a collection of short things that I learned on a day-to-day basis, and i
 
 - [Array.prototype.reduce](js/reduce.md)
 - [Spread Operator](js/spread-operator.md)
+
+### Shell Commands
+
+- [Updating Directory Permissions](sh/update-directory-permissions.md)
 
 ## Source
 
